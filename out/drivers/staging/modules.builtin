@@ -1,0 +1,6 @@
+kernel/drivers/staging/android/logger.ko
+kernel/drivers/staging/android/timed_gpio.ko
+kernel/drivers/staging/iio/industrialio.ko
+kernel/drivers/staging/iio/ring_sw.ko
+kernel/drivers/staging/iio/kfifo_buf.ko
+kernel/drivers/staging/iio/imu/inv_mpu/inv-mpu-iio.ko

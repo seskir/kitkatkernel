@@ -1,0 +1,11 @@
+kernel/drivers/video/fb.ko
+kernel/drivers/video/cfbfillrect.ko
+kernel/drivers/video/cfbcopyarea.ko
+kernel/drivers/video/cfbimgblt.ko
+kernel/drivers/video/s3c-fb.ko
+kernel/drivers/video/exynos_display_handler.ko
+kernel/drivers/video/lcdfreq.ko
+kernel/drivers/video/backlight/lcd.ko
+kernel/drivers/video/backlight/dynamic_aid.ko
+kernel/drivers/video/backlight/ea8061_mipi_lcd.ko
+kernel/drivers/video/backlight/backlight.ko

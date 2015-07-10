@@ -1,0 +1,4 @@
+kernel/drivers/video/backlight/lcd.ko
+kernel/drivers/video/backlight/dynamic_aid.ko
+kernel/drivers/video/backlight/ea8061_mipi_lcd.ko
+kernel/drivers/video/backlight/backlight.ko

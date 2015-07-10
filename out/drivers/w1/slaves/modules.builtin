@@ -1,0 +1,2 @@
+kernel/drivers/w1/slaves/w1_ds28el15.ko
+kernel/drivers/w1/slaves/w1_ds28el15_sha256.ko

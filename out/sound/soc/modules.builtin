@@ -1,0 +1,8 @@
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/codecs/snd-soc-dummy.ko
+kernel/sound/soc/codecs/ymu831/snd-soc-yamaha_ymu831.ko
+kernel/sound/soc/samsung/snd-soc-s3c24xx.ko
+kernel/sound/soc/samsung/snd-soc-i2s.ko
+kernel/sound/soc/samsung/snd-soc-idma.ko
+kernel/sound/soc/samsung/snd-soc-lpass.ko
+kernel/sound/soc/samsung/snd-soc-adonisuniv-ymu831.ko
