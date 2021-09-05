@@ -1,7 +1,0 @@
-kernel/drivers/gpu/arm/t6xx/kbase/src/mali_kbase.ko
-kernel/drivers/gpu/ion/ion.ko
-kernel/drivers/gpu/ion/ion_heap.ko
-kernel/drivers/gpu/ion/ion_page_pool.ko
-kernel/drivers/gpu/ion/ion_system_heap.ko
-kernel/drivers/gpu/ion/ion_carveout_heap.ko
-kernel/drivers/gpu/ion/ion_chunk_heap.ko

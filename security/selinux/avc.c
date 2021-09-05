@@ -729,7 +729,7 @@ static void avc_audit_post_callback(struct audit_buffer *ab, void *a)
 
 /* This is the slow part of avc audit with big stack footprint */
 static noinline int slow_avc_audit(u32 ssid, u32 tsid, u16 tclass,
-		u32 requested, u32 audited, u32 denied,
+		u32 requested, u32 audited, u32 denied, int result,
 		struct common_audit_data *a,
 		unsigned flags)
 {
@@ -839,7 +839,7 @@ inline int avc_audit(u32 ssid, u32 tsid,
 		return 0;
 
 	return slow_avc_audit(ssid, tsid, tclass,
-		requested, audited, denied,
+		requested, audited, denied, result,
 		a, flags);
 }
 
@@ -1202,7 +1202,7 @@ inline int avc_has_perm_noaudit(u32 ssid, u32 tsid,
 
 	node = avc_lookup(ssid, tsid, tclass);
 	if (unlikely(!node))
-		node = avc_compute_av(ssid, tsid, tclass, avd);
+		node = avc_compute_av(ssid, tsid, tclass, avd, &xp_node);
 	else
 		memcpy(avd, &node->ae.avd, sizeof(*avd));
 

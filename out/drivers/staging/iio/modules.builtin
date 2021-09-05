@@ -1,4 +1,0 @@
-kernel/drivers/staging/iio/industrialio.ko
-kernel/drivers/staging/iio/ring_sw.ko
-kernel/drivers/staging/iio/kfifo_buf.ko
-kernel/drivers/staging/iio/imu/inv_mpu/inv-mpu-iio.ko

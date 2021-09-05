@@ -1,3 +1,0 @@
-kernel/drivers/regulator/fixed.ko
-kernel/drivers/regulator/max77803.ko
-kernel/drivers/regulator/s2mpa01.ko
